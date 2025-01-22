@@ -1,0 +1,1 @@
+This code demonstrates a common type error in TypeScript. The `add` function is defined to accept two numbers, but the code calls it with a number and a string. This results in a type error because TypeScript's type checker detects that the string '10' is not assignable to the number type parameter 'b'.  The solution involves type guarding or input validation.
